@@ -1,5 +1,6 @@
 main() {
   add(1, 2);
+  divide(10, 20);
 }
 
 int add(int a, int b) => a + b;
