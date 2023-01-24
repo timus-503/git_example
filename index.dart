@@ -1,7 +1,5 @@
 main() {
-  print("Hello World");
-  print("Hello World 2");
-  print("Hello World 3");
+  add(1, 2);
 }
 
 int add(int a, int b) => a + b;
@@ -12,5 +10,9 @@ int multiply(int a, int b) {
 
 int subtract(int a, int b) {
   return a - b;
+}
+
+double divide(int a, int b) {
+  return a / b;
 }
 
